@@ -1,0 +1,5 @@
+write two text files -> example.v and example_test.v(testbench)
+(1) open bin -> top bar enter cmd
+(2) type iverilog -o mysim example.v.txt example_test.v.txt
+(3) type vvp mysim
+(4) type gtkwave example.vcd
